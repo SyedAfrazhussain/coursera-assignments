@@ -1,0 +1,51 @@
+body{
+	background-color: #aaddaa;
+	font-size: 16px;
+	font-family: 'Rowdies', cursive;
+	color: white;
+}
+#header-nav{
+	border: 0;
+	border-radius: 0;
+	background-color: #f6ffcb;
+}
+.navbar-brand h1{
+	font-size: 2em;
+	line-height: 0.7em;
+	margin:10px auto 15px 0; 
+}
+.navbar-toggle{
+	clear: both;
+	margin-top: -50px;
+}
+#nav-list{
+	background-color:#fff;
+	font-size: 1.4em;
+}
+.nav-item:hover{
+	box-shadow: 0 0 20px #aabbcc inset;
+}
+.navbar button.navbar-toggle, .navbar button.navbar-toggle .icon-bar{
+	border: 2px solid #a6ccfc;
+}
+#menu-head{
+	color: #999999;
+	font-size: 1.8em;
+}
+.box{
+	padding: 10px;
+	margin: 10px;
+	margin-bottom: 30px;
+	border: 1px solid #efefef;
+	border-radius:1.6em;
+	background-color: #cfcfcf;
+	color: #121212; 
+	box-shadow: 0 0 70px #565656 inset;
+	height: 1500px;
+	overflow:auto;
+
+}
+.box:hover, .box:focus, .box:active{
+	box-shadow: 0 0 30px 30px #efefef;
+	cursor: pointer;
+}
